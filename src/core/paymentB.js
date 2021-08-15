@@ -37,7 +37,7 @@ const Paymentb = ({ products, setReload = f => f, reload = undefined }) => {
         {info.clientToken !== null && products.length > 0 ? (
           <div>
           <h3>Use Card Number: 4111 1111 1111 1111</h3>
-          <h4>12/21</h4>
+          <h3>Expiration Data: 12/21</h3>
             <DropIn
               options={{ authorization: info.clientToken }}
               onInstance={instance => (info.instance = instance)}
